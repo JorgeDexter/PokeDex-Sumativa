@@ -1,0 +1,659 @@
+  /* Escritorio extra grande */
+@media only screen and (max-width: 2000px){
+  .container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-family: "Silkscreen", sans-serif;
+}
+.structure-pokedex{
+    width: 50%;
+    height: 100%;
+    background-color: #FF3233;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+// H E A D E R
+.header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+}
+.img-pokebola{
+    width: 16%;
+    height: 85px;
+    margin: 2%;
+    margin-left: 7%;
+    margin-top: 10px;
+}
+.text-header{
+    font-size: 425%;
+    color: white;
+    margin-top: 15px;    
+}
+.card{
+    width: 90%;
+    height: 450px;
+    border-top: solid black 4px;
+    border-bottom: solid black 4px;
+    left: 3.8%;
+    box-shadow: 0 0 5rem -1rem black;
+}
+// Tamaños de Imagen
+.img-pokemon{
+    width: 100%;
+    height: 440px;
+    border: solid black 0.5px;
+    background-color: white;
+    margin-top: -7.5px;
+} 
+.inter-img{
+    width: 98%;
+    height: 495px;
+    background-color: #474948;
+    margin-left: 1%;
+    border-radius: 15px;
+}
+//Espacio del recuadro de la Imagen
+.space-img{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+//Busqueda
+.info{
+    width: 90%;
+    height: 155px;
+    border: solid;
+    margin-left: 5%;
+    background-color: #636363;
+    border-radius: 15px;
+}
+.search{
+    width: 90%;
+    border-radius: 15px;
+    background-color: #8CC53B;
+    border: solid 1px;
+}
+ion-button.button {
+    --background: #49A657;
+    --border-color: black;
+    --border-radius: 50%;
+    --border-style: solid;
+    --border-width: 2px;
+    --box-shadow: none;
+    --color: black;
+    --padding-start: 0;
+    --padding-end: 0;
+    width: 40px;
+    height: 40px;
+    margin-left: 92.5%;
+    margin-top: -19%;
+}
+  
+  ion-button.button ion-icon {
+    font-size: 24px;
+  }
+  
+  ion-button.button.button-checked {
+    --background: black;
+    --color: #fff;
+  }
+
+  //Description Pokemon
+
+  .description-pokemon{
+    width: 100%;
+    height: 60px;
+    margin-top: -15px;
+    border: solid;
+    background-color: #8CC63E;
+    display: flex;
+    flex-direction: row;
+  }
+
+  // T E X T O  I N F O
+  .id-Pokemon{
+    margin-left: 10px;
+    margin-top: -16.5px;
+  }
+  .name-Pokemon{
+    margin-left:8px;
+    margin-top: -16.5px;
+  }
+  .type-Pokemon{
+    margin-left: 35px;
+    margin-top: -16.5px;
+  }
+}
+/* Escritorio grande */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-family: "Silkscreen", sans-serif;
+}
+.structure-pokedex{
+    width: 50%;
+    height: 100%;
+    background-color: #FF3233;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+// H E A D E R
+.header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+}
+.img-pokebola{
+    width: 16%;
+    height: 85px;
+    margin: 2%;
+    margin-left: 7%;
+    margin-top: 10px;
+}
+.text-header{
+    font-size: 425%;
+    color: white;
+    margin-top: 15px;    
+}
+.card{
+    width: 90%;
+    height: 450px;
+    border-top: solid black 4px;
+    border-bottom: solid black 4px;
+    left: 3.8%;
+    box-shadow: 0 0 5rem -1rem black;
+}
+// Tamaños de Imagen
+.img-pokemon{
+    width: 100%;
+    height: 440px;
+    border: solid black 0.5px;
+    background-color: white;
+    margin-top: -7.5px;
+} 
+.inter-img{
+    width: 98%;
+    height: 495px;
+    background-color: #474948;
+    margin-left: 1%;
+    border-radius: 15px;
+}
+//Espacio del recuadro de la Imagen
+.space-img{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+//Busqueda
+.info{
+    width: 90%;
+    height: 155px;
+    border: solid;
+    margin-left: 5%;
+    background-color: #636363;
+    border-radius: 15px;
+}
+.search{
+    width: 90%;
+    border-radius: 15px;
+    background-color: #8CC53B;
+    border: solid 1px;
+}
+ion-button.button {
+    --background: #49A657;
+    --border-color: black;
+    --border-radius: 50%;
+    --border-style: solid;
+    --border-width: 2px;
+    --box-shadow: none;
+    --color: black;
+    --padding-start: 0;
+    --padding-end: 0;
+    width: 40px;
+    height: 40px;
+    margin-left: 92.5%;
+    margin-top: -19%;
+}
+  
+  ion-button.button ion-icon {
+    font-size: 24px;
+  }
+  
+  ion-button.button.button-checked {
+    --background: black;
+    --color: #fff;
+  }
+
+  //Description Pokemon
+
+  .description-pokemon{
+    width: 100%;
+    height: 60px;
+    margin-top: -15px;
+    border: solid;
+    background-color: #8CC63E;
+    display: flex;
+    flex-direction: row;
+  }
+
+  // T E X T O  I N F O
+  .id-Pokemon{
+    margin-left: 10px;
+    margin-top: -16.5px;
+  }
+  .name-Pokemon{
+    margin-left:8px;
+    margin-top: -16.5px;
+  }
+  .type-Pokemon{
+    margin-left: 35px;
+    margin-top: -16.5px;
+  }
+}
+
+/* Escritorio pequeño / tablet */
+@media only screen and (min-width: 768px) and (max-width: 992px){
+  .container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-family: "Silkscreen", sans-serif;
+}
+.structure-pokedex{
+    width: 60%;
+    height: 100%;
+    background-color: #FF3233;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+// H E A D E R
+.header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+}
+.img-pokebola{
+    width: 16%;
+    height: 85px;
+    margin: 2%;
+    margin-left: 7%;
+    margin-top: 10px;
+}
+.text-header{
+    font-size: 425%;
+    color: white;
+    margin-top: 15px;    
+}
+.card{
+    width: 90%;
+    height: 450px;
+    border-top: solid black 4px;
+    border-bottom: solid black 4px;
+    left: 3.8%;
+    box-shadow: 0 0 5rem -1rem black;
+}
+// Tamaños de Imagen
+.img-pokemon{
+    width: 100%;
+    height: 440px;
+    border: solid black 0.5px;
+    background-color: white;
+    margin-top: -7.5px;
+} 
+.inter-img{
+    width: 98%;
+    height: 495px;
+    background-color: #474948;
+    margin-left: 1%;
+    border-radius: 15px;
+}
+//Espacio del recuadro de la Imagen
+.space-img{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+//Busqueda
+.info{
+    width: 90%;
+    height: 155px;
+    border: solid;
+    margin-left: 5%;
+    background-color: #636363;
+    border-radius: 15px;
+}
+.search{
+    width: 90%;
+    border-radius: 15px;
+    background-color: #8CC53B;
+    border: solid 1px;
+}
+ion-button.button {
+    --background: #49A657;
+    --border-color: black;
+    --border-radius: 50%;
+    --border-style: solid;
+    --border-width: 2px;
+    --box-shadow: none;
+    --color: black;
+    --padding-start: 0;
+    --padding-end: 0;
+    width: 40px;
+    height: 40px;
+    margin-left: 92.5%;
+    margin-top: -19%;
+}
+  
+  ion-button.button ion-icon {
+    font-size: 24px;
+  }
+  
+  ion-button.button.button-checked {
+    --background: black;
+    --color: #fff;
+  }
+
+  //Description Pokemon
+
+  .description-pokemon{
+    width: 100%;
+    height: 60px;
+    margin-top: -15px;
+    border: solid;
+    background-color: #8CC63E;
+    display: flex;
+    flex-direction: row;
+  }
+
+  // T E X T O  I N F O
+  .id-Pokemon{
+    margin-left: 10px;
+    margin-top: -16.5px;
+  }
+  .name-Pokemon{
+    margin-left:8px;
+    margin-top: -16.5px;
+  }
+  .type-Pokemon{
+    margin-left: 35px;
+    margin-top: -16.5px;
+  }
+}
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 768px){
+  .container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-family: "Silkscreen", sans-serif;
+}
+.structure-pokedex{
+    width: 80%;
+    height: 100%;
+    background-color: #FF3233;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+// H E A D E R
+.header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+}
+.img-pokebola{
+    width: 16%;
+    height: 85px;
+    margin: 2%;
+    margin-left: 7%;
+    margin-top: 10px;
+}
+.text-header{
+    font-size: 425%;
+    color: white;
+    margin-top: 15px;    
+}
+.card{
+    width: 90%;
+    height: 450px;
+    border-top: solid black 4px;
+    border-bottom: solid black 4px;
+    left: 3.8%;
+    box-shadow: 0 0 5rem -1rem black;
+}
+// Tamaños de Imagen
+.img-pokemon{
+    width: 100%;
+    height: 440px;
+    border: solid black 0.5px;
+    background-color: white;
+    margin-top: -7.5px;
+} 
+.inter-img{
+    width: 98%;
+    height: 495px;
+    background-color: #474948;
+    margin-left: 1%;
+    border-radius: 15px;
+}
+//Espacio del recuadro de la Imagen
+.space-img{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+//Busqueda
+.info{
+    width: 90%;
+    height: 155px;
+    border: solid;
+    margin-left: 5%;
+    background-color: #636363;
+    border-radius: 15px;
+}
+.search{
+    width: 90%;
+    border-radius: 15px;
+    background-color: #8CC53B;
+    border: solid 1px;
+}
+ion-button.button {
+    --background: #49A657;
+    --border-color: black;
+    --border-radius: 50%;
+    --border-style: solid;
+    --border-width: 2px;
+    --box-shadow: none;
+    --color: black;
+    --padding-start: 0;
+    --padding-end: 0;
+    width: 40px;
+    height: 40px;
+    margin-left: 92.5%;
+    margin-top: -19%;
+}
+  
+  ion-button.button ion-icon {
+    font-size: 24px;
+  }
+  
+  ion-button.button.button-checked {
+    --background: black;
+    --color: #fff;
+  }
+
+  //Description Pokemon
+
+  .description-pokemon{
+    width: 100%;
+    height: 60px;
+    margin-top: -15px;
+    border: solid;
+    background-color: #8CC63E;
+    display: flex;
+    flex-direction: row;
+  }
+
+  // T E X T O  I N F O
+  .id-Pokemon{
+    margin-left: 10px;
+    margin-top: -16.5px;
+  }
+  .name-Pokemon{
+    margin-left:8px;
+    margin-top: -16.5px;
+  }
+  .type-Pokemon{
+    margin-left: 35px;
+    margin-top: -16.5px;
+  }
+}
+
+/* Teléfonos */
+  @media screen and (max-width: 576px) {
+    .container{
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      font-family: "Silkscreen", sans-serif;
+  }
+  .structure-pokedex{
+      width: 90%;
+      height: 100%;
+      background-color: #FF3233;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 5%;
+  }
+  // H E A D E R
+  .header{
+      width: 100%;
+      height: 15%;
+      display: flex;
+      flex-direction: row;
+  }
+  .img-pokebola{
+      width: 16%;
+      height: 85px;
+      margin: 2%;
+      margin-left: 7%;
+      margin-top: 10px;
+  }
+  .text-header{
+      font-size: 425%;
+      color: white;
+      margin-top: 15px;    
+  }
+  .card{
+      width: 90%;
+      height: 450px;
+      border-top: solid black 4px;
+      border-bottom: solid black 4px;
+      left: 3.8%;
+      box-shadow: 0 0 5rem -1rem black;
+  }
+  // Tamaños de Imagen
+  .img-pokemon{
+      width: 100%;
+      height: 440px;
+      border: solid black 0.5px;
+      background-color: white;
+      margin-top: -7.5px;
+  } 
+  .inter-img{
+      width: 98%;
+      height: 495px;
+      background-color: #474948;
+      margin-left: 1%;
+      border-radius: 15px;
+  }
+  //Espacio del recuadro de la Imagen
+  .space-img{
+      width: 100%;
+      height: 500px;
+      background-color: black;
+  }
+  //Busqueda
+  .info{
+      width: 90%;
+      height: 155px;
+      border: solid;
+      margin-left: 5%;
+      background-color: #636363;
+      border-radius: 15px;
+  }
+  .search{
+      width: 90%;
+      border-radius: 15px;
+      background-color: #8CC53B;
+      border: solid 1px;
+  }
+  ion-button.button {
+      --background: #49A657;
+      --border-color: black;
+      --border-radius: 50%;
+      --border-style: solid;
+      --border-width: 2px;
+      --box-shadow: none;
+      --color: black;
+      --padding-start: 0;
+      --padding-end: 0;
+      width: 40px;
+      height: 40px;
+      margin-left: 92.5%;
+      margin-top: -19%;
+  }
+    
+    ion-button.button ion-icon {
+      font-size: 24px;
+    }
+    
+    ion-button.button.button-checked {
+      --background: black;
+      --color: #fff;
+    }
+  
+    //Description Pokemon
+  
+    .description-pokemon{
+      width: 100%;
+      height: 60px;
+      margin-top: -15px;
+      border: solid;
+      background-color: #8CC63E;
+      display: flex;
+      flex-direction: row;
+    }
+  
+    // T E X T O  I N F O
+    .id-Pokemon{
+      margin-left: 10px;
+      margin-top: -16.5px;
+    }
+    .name-Pokemon{
+      margin-left:8px;
+      margin-top: -16.5px;
+    }
+    .type-Pokemon{
+      margin-left: 35px;
+      margin-top: -16.5px;
+    }
+  }
+ 

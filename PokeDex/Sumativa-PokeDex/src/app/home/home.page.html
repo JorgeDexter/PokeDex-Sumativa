@@ -1,0 +1,67 @@
+<!---->
+
+<!-- Parametros para la letra -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Body-->
+
+<body>
+  <div class="container">
+
+    <div class="structure-pokedex">
+      <div class="header">
+        <!-- Logo de Pokebola -->
+        <img class="img-pokebola" src="../../assets/Img/pelota.png" alt="pokebola">
+        <p class="text-header"> POKEDEX</p>
+      </div>
+      <!--  F U N C I Ó N  P R I N C I P A L -->
+      <ion-card class="card">
+
+
+        <div class="space-img">
+          <div class="inter-img">
+            <ion-card-content *ngIf="namePokemon">
+              <div>
+                <img class="img-pokemon" [src]="namePokemon.sprites.front_default"
+                  alt="{{ namePokemon.name }}" />
+              </div>
+            </ion-card-content>
+          </div>
+        </div>
+
+      </ion-card>
+
+      <div class="info">
+        <ion-card-header>
+          <ion-card-title>
+            <ion-searchbar [(ngModel)]="pokemonName" placeholder="Search Pokemon Here" class="search"></ion-searchbar>
+            <!--<ion-label>Name:</ion-label>
+              <ion-input [(ngModel)]="pokemonName" type="text"></ion-input>-->
+
+            <ion-button (click)="getPokemonByName()" class="button">
+              <ion-icon name="checkmark-outline"></ion-icon>
+            </ion-button>
+
+
+            <div class="description-pokemon">
+              <!-- forma para obtener el ID del pokemon-->
+              <div class="id-Pokemon">
+                <p>#{{ namePokemon.id }}</p>
+              </div>
+              <div class="name-Pokemon">
+                <!-- forma para obtener el NOMBRE del pokemon-->
+                <p>{{ namePokemon.name }} </p>
+              </div>
+              <div class="type-Pokemon">
+                <p> {{ pokemonType }} </p>
+              </div>
+            </div>
+          </ion-card-title>
+        </ion-card-header>
+      </div>
+    </div>
+
+  </div>
+</body>

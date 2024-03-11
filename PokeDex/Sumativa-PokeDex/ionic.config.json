@@ -1,0 +1,7 @@
+{
+  "name": "Sumativa-PokeDex",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
